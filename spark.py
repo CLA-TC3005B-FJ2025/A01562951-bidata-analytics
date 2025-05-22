@@ -33,7 +33,7 @@ def main():
     spark = crear_spark_session()
 
     # Ruta al archivo de datos
-    file_path = 'data.csv'
+    file_path = 'data1_2.csv'
 
     # Cargar y analizar los datos
     datos = cargar_datos(spark, file_path)
